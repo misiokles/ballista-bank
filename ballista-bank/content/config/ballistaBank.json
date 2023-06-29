@@ -1,0 +1,112 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"ballistaBank" : 
+			{
+				"name" : "Ballista Bank",
+				"templates" : {
+					"base" : { 
+					"animation" : "ShootRange", 
+					"visitableFrom" : [ "+++", "+++", "+++" ], 
+//					"allowedTerrains": [ "subterra", "dirt", "lava" ], 
+					"mask" : [ "VVVV", "VBBA" ]
+					}
+				},
+				"rmg" : {
+					"value"		: 5000,
+					"rarity"	: 50
+				},
+				"levels": [
+				{
+					"chance": 10,
+					"guards": [
+							{ "amount": 1, "type" : "ballistaTurret" },
+							{ "amount": 1, "type" : "ballistaTurret" },
+							{ "amount": 1, "type" : "ballistaTurret" },
+							{ "amount": 1, "type" : "ballistaTurret" },
+							{ "amount": 1, "type" : "core:ammoCart" }							
+					],
+				"combat_value": 5000,
+					"reward" : {
+						"value": 10000,
+							"resources": 
+							{
+								"gold" : 5000,
+								"ore" : 20,
+								"wood" : 20
+							},
+//							"heroes" : [ { "type": "ballistaSpecialist" } ],							
+							"artifacts": ["ballista", "ammoCart"]			
+
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+								{ "amount": 1, "type" : "ballistaTurret" },
+								{ "amount": 1, "type" : "ballistaTurret" },
+								{ "amount": 1, "type" : "ballistaTurret" },
+								{ "amount": 1, "type" : "core:ammoCart" }							
+						],
+					"combat_value": 5000,
+						"reward" : {
+							"value": 10000,
+								"resources": 
+								{
+									"gold" : 4000,
+									"ore" : 15,
+									"wood" : 15
+								},
+	//							"heroes" : [ { "type": "ballistaSpecialist" } ],							
+								"artifacts": ["ballista", "ammoCart"]			
+	
+							}
+						},
+						{
+							"chance": 30,
+							"guards": [
+									{ "amount": 1, "type" : "ballistaTurret" },
+									{ "amount": 1, "type" : "ballistaTurret" },
+									{ "amount": 1, "type" : "core:ammoCart" }							
+							],
+						"combat_value": 5000,
+							"reward" : {
+								"value": 10000,
+									"resources": 
+									{
+										"gold" : 3000,
+										"ore" : 10,
+										"wood" : 10
+									},
+		//							"heroes" : [ { "type": "ballistaSpecialist" } ],							
+									"artifacts": ["ballista", "ammoCart"]			
+		
+								}
+							},
+							{
+								"chance": 30,
+								"guards": [
+										{ "amount": 1, "type" : "ballistaTurret" },
+										{ "amount": 1, "type" : "core:ammoCart" }							
+								],
+							"combat_value": 5000,
+								"reward" : {
+									"value": 10000,
+										"resources": 
+										{
+											"gold" : 2000,
+											"ore" : 5,
+											"wood" : 5
+										},
+			//							"heroes" : [ { "type": "ballistaSpecialist" } ],							
+										"artifacts": ["ballista", "ammoCart"]			
+			
+									}
+								}																		
+				]
+			}
+		}
+	}
+}

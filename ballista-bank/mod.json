@@ -1,0 +1,30 @@
+{
+	"author" : "andruids",
+	"contact" : "madaosoul@gmail.com",
+	"description" : "New creature bank.",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType" : "Objects",
+	"name" : "Ballista Bank",
+	"version" : "1.0",
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	},	
+	"changelog" :
+    {
+		"1.0"   : [ "Initial release" ]
+    },
+	"creatures" :
+	[
+		"config/ballistaTurret"
+	],
+//	"spells" :
+ //   [ 
+//		"config/ballista0speed"
+//		]	,
+	"objects" :
+    [ 
+		"config/ballistaBank"
+    ]	
+}
