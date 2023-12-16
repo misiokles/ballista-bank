@@ -6,14 +6,15 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Objects",
 	"name" : "Ballista Bank",
-	"version" : "1.0",
+	"version" : "1.0.1",
 	"compatibility" :
 	{
-		"min" : "1.2.0"
+		"min" : "1.4.0"
 	},	
 	"changelog" :
     {
-		"1.0"   : [ "Initial release" ]
+		"1.0.0"   : [ "Initial release" ],
+		"1.0.1"   : [ "Update to vcmi-1.4 format" ]
     },
 	"creatures" :
 	[

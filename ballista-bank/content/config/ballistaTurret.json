@@ -27,8 +27,7 @@
 			"noMelee" :
 			{
 				"type" : "GENERAL_ATTACK_REDUCTION",
-				"val" : 100 ,
-				"subtype" : 0
+				"val" : 100
 			},				
 			"noRetaliations" :
 			{
